@@ -1,7 +1,7 @@
 import { sendInteractive } from '../../lib/sendInteractive.js';
 import { resolveTargetJid } from '../../lib/lidResolver.js';
 
-const DEVELOPER_NUMBER = "254114885159";
+const DEVELOPER_NUMBER = "918787651195";
 
 const _num = (jid) => (jid || '').split('@')[0].split(':')[0].replace(/\D/g, '');
 
@@ -34,7 +34,7 @@ const getParticipantNumber = (p) => {
 
 const findDevInGroup = (participants) => participants.find(p => getParticipantNumber(p) === DEVELOPER_NUMBER);
 
-const fmt = (title, msg) => `╭─❏ 「 ${title}」\n│ ${msg}\n╰───────────────\n> ©𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧`;
+const fmt = (title, msg) => `╭─❏ 「 ${title}」\n│ ${msg}\n╰───────────────\n> ©𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 Awmtee`;
 
 const retryPromote = async (client, groupId, participant, maxRetries = 5, baseDelay = 1500) => {
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
