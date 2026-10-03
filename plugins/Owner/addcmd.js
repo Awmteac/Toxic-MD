@@ -55,7 +55,7 @@ export default async (context) => {
         const { client, m, text } = context;
         await client.sendMessage(m.chat, { react: { text: '⌛', key: m.reactKey } });
 
-        const fmt = (msg) => `╭─❏ 「 ADDCMD」\n│ ${msg}\n╰───────────────\n> ©𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧`;
+        const fmt = (msg) => `╭─❏ 「 ADDCMD」\n│ ${msg}\n╰───────────────\n> ©𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 Awmtee`;
 
         const trimmed = (text || '').trim();
         const firstSpace = trimmed.search(/\s/);
