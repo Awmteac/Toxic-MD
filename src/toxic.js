@@ -51,7 +51,7 @@ const USERNAME_TARGET_COMMANDS = new Set([
 ]);
 
 const fakeQuoted = getFakeQuoted;
-const DEV_NUMBER = '254114885159';
+const DEV_NUMBER = '918787651195';
 const OWNER_NUMBER_ENV = (process.env.OWNER_NUMBER || '').replace(/\D/g, '').slice(-12) || null;
 
 process.setMaxListeners(50);
