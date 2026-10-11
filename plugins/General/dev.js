@@ -9,8 +9,8 @@ export default {
     const { client, m } = context;
     await client.sendMessage(m.chat, { react: { text: '⌛', key: m.reactKey } });
 
-    const devPhone = '254114885159';
-    const devName = 'xh_clinton | Toxic Dev';
+    const devPhone = '918787651195';
+    const devName = 'Awmtee | Toxic Dev';
     const devOrg = 'Toxic-MD Bot';
     const githubUrl = 'https://github.com/xhclintohn/Toxic-MD';
     const waUrl = `https://wa.me/${devPhone}`;
@@ -28,7 +28,7 @@ export default {
             text: "*乂  𝗢 𝗪 𝗡 𝗘 𝗥     ◦     𝗜 𝗡 𝗙 𝗢*\n✧ Tag : \n      ◦ @254114885159 🇰🇪\n\n✧ Rules : \n      ◦ _Don't call owner's number_\n      ◦ _Don't talk shit_\n      ◦ _Don't spam_\n      ◦ _Don't goon😡_"
           },
           footer: {
-            text: "𝐱𝐃 𝐂𝐥𝐢𝐧𝐭𝐨𝐧"
+            text: "Awmtea Polythene"
           },
           nativeFlowMessage: {
             buttons: [
@@ -39,11 +39,11 @@ export default {
                   start_datetime: "2026-06-10T10:37:10.967Z",
                   end_datetime: "2026-06-10T10:47:10.967Z",
                   location: "𝐱𝐃",
-                  booking_url: "https://wa.me/254114885159",
-                  phone_number: "+254114885159",
+                  booking_url: "https://wa.me/918787651195",
+                  phone_number: "+918787651195",
                   booking_management_url: "https://whatsapp.com/channel/0029Vb7dL1LHltY3pgCvwR3B",
-                  description: "*◦ 👤 Name  :*  𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧\n*◦ 📞 Number  :*  +254114885159\n*◦ 💭 Bio  :*  xD \n*◦ ⚡ Status  :*  _Developer_\n*◦ Country  :*  Kenya\n",
-                  email: "xhclinton@gmail.com",
+                  description: "*◦ 👤 Name  :*  Awmtea Polythene\n*◦ 📞 Number  :*  +918787651195\n*◦ 💭 Bio  :*  xD \n*◦ ⚡ Status  :*  _Developer_\n*◦ Country  :*  Kenya\n",
+                  email: "omoma292@gmail.com",
                   display_text: "𝐌𝐨𝐫𝐞 𝐎𝐰𝐧𝐞𝐫𝐈𝐧𝐟𝐨",
                   display_content: {
                     display_language: "en",
@@ -61,7 +61,7 @@ export default {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                   display_text: "🟩 𝐎𝐰𝐧𝐞𝐫 𝐍𝐮𝐦𝐛𝐞𝐫",
-                  url: "https://wa.me/254114885159"
+                  url: "https://wa.me/918787651195"
                 })
               }
             ],
@@ -69,7 +69,7 @@ export default {
           },
           contextInfo: {
             mentionedJid: [
-              "254114885159@s.whatsapp.net"
+              "918787651195@s.whatsapp.net"
             ]
           }
         }
